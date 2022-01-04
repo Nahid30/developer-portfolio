@@ -23,6 +23,9 @@ body{
 #menu{
     height: 50px;
     background-color: #0072b1;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
 }
 
 .container{
@@ -117,10 +120,12 @@ body{
 #first_part{
     background-image: url(../images/top-banner.png);
     background-repeat: no-repeat;
+    
 }
 .heading_text{
     width: 50%;
     position: relative;
+    padding-top: 50px;
     
 }
 .img_first {
@@ -128,6 +133,7 @@ body{
     width: 40%;
     right: 50px;
     top: 115px;
+    padding-top: 40px;
 }
 .img_first img{
     width: 80%;
@@ -188,3 +194,103 @@ body{
     transition: .5s;
 }
 /* dream part end*/
+
+/* exprience part start */
+
+.exprience{
+    display: flex;
+    background-image: url(../images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    
+}
+.head_text{
+    padding-top: 100px;
+    padding-bottom: 50px;
+    padding-left: 4px;
+    font-size: 24px;
+    font-weight: 300;
+
+}
+.head_text h1{
+    padding-bottom: 30px;
+}
+.width_h1{
+    width: 50%;
+    padding-left: 20px;
+    box-shadow: 10px 10px 50px gray;
+    border-radius: 5px;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-left: 7px solid;
+    border-image: linear-gradient( tomato , orange);
+    border-image-slice: 1;
+    
+}
+
+.width_h1 h1{
+    font-size: 30px;
+    font-weight: 600;
+    padding-top: 20px;
+    padding-left: 16px;
+}
+.width_h1 h3{
+    font-size: 20px;
+    color: orange;
+    font-weight: 600;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+.width_h1 p{
+    font-size: 16px;
+    color: rgb(119, 117, 117);
+    font-weight: 400;
+    text-align: left;
+    padding-bottom: 40px;
+}
+
+.width_h2{
+    width: 50%;
+    box-shadow: 10px 10px 50px gray;
+    border-radius: 5px;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-left: 7px solid;
+    border-image: linear-gradient( blue , cyan);
+    border-image-slice: 1;
+    
+}
+.width_h2 h1{
+    font-size: 30px;
+    font-weight: 600;
+    padding-top: 20px;
+    padding-left: 16px;
+}
+.width_h2 h3{
+    font-size: 20px;
+    color: orange;
+    font-weight: 600;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+.width_h2 p{
+    font-size: 16px;
+    padding-top: 20px;
+    color: rgb(119, 117, 117);
+    font-weight: 400;
+    width: 460px;
+    text-align: left;
+    padding-left: 20px;
+}
+/* exprience part end */
+
+/* footer part start */
+
+footer p{
+    padding-top: 100px;
+    text-align: center;
+    padding-bottom: 20px;
+    color: rgb(119, 117, 117);
+}
+
+/* footer part end */
