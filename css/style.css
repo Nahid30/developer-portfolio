@@ -13,11 +13,62 @@ a{
 img{
     vertical-align: middle;
 }
-
+body{
+    font-family: 'Poppins', sans-serif;
+}
 /*common part end*/
 
 /* menu part start*/
 
+#menu{
+    height: 50px;
+    background-color: orangered;
+}
 
+.container{
+    width: 980px;
+    margin: 0 auto;
+}
+.main_menu{
+    width: 85%;
+    float: left;
+}
+.main_menu ul li{
+    display: inline-block;
+}
+.main_menu ul li a{
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0px 30px;
+    line-height: 50px;
+    
+}
+.main_menu ul li a:hover{
+    background-color: #0072b1;
+    color: #fff;
+    transition: .5s;
+    
+}
+
+.icon{
+    text-align: end;
+    padding-top: 10px;
+}
+
+.icon i{
+    height: 30px;
+    width: 30px;
+    background-color: #fff;
+    border-radius: 50%;
+    line-height: 30px;
+    text-align: center;
+    color: #0072b1;
+    margin: 0px 5px;
+}
+.icon i:hover{
+    background-color: #0072b1;
+    color: #fff;
+}
 
 /* menu part end*/
