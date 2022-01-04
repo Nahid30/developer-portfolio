@@ -22,7 +22,7 @@ body{
 
 #menu{
     height: 50px;
-    background-color: orangered;
+    background-color: #0072b1;
 }
 
 .container{
@@ -45,7 +45,7 @@ body{
     
 }
 .main_menu ul li a:hover{
-    background-color: #0072b1;
+    background-color: tomato;
     color: #fff;
     transition: .5s;
 }
@@ -66,7 +66,7 @@ body{
     margin: 0px 5px;
 }
 .icon i:hover{
-    background-color: #0072b1;
+    background-color: tomato;
     color: #fff;
     transition: .5s;
 }
@@ -103,14 +103,14 @@ body{
 }
 
 .heading_text a{
-    background-color: orange;
+    background-color: #0072b1;
     padding: 10px 40px;
     font-weight: 600;
     color: #fff;
     border-radius: 4px;
 }
 .heading_text a:hover{
-    background-color: #0072b1;
+    background-color: tomato;
     color: #fff;
     transition: .5s;
 }
@@ -136,3 +136,55 @@ body{
     
 }
 /* first part end*/
+
+/* dream part start*/
+
+.dream_big{
+    display: flex;
+    padding-top: 200px;
+    background-image: url(../images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.half_w1{
+    width: 50%;
+    float: left;
+}
+.half_w1 img{
+    width: 100%;
+    height: 100%;
+}
+.half_w2{
+    width: 50%;
+    text-align: left;
+    padding-left: 100px;
+    padding-top: 40px;
+}
+.half_w2 h1{
+    font-size: 40px;
+    font-weight: 500;
+}
+.half_w2 h3{
+    font-weight: 500;
+    padding-top: 30px;
+}
+.half_w2 p{
+    width: 460px;
+    padding-top: 10px;
+    font-weight: 400;
+    color: rgb(119, 117, 117);
+    padding-bottom: 10px;
+
+}
+.half_w2 a{
+    background-color: tomato;
+    padding: 10px 40px;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 600;
+}
+.half_w2 a:hover{
+    background-color: #0072b1;
+    transition: .5s;
+}
+/* dream part end*/
